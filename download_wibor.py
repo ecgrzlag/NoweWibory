@@ -9,7 +9,12 @@ TICKERS = {
     'plopln3m': 'WIBOR_3M',
     'plopln6m': 'WIBOR_6M',
     'ploplnon': 'WIBOR_ON',
-    'plbplnon': 'WIBID_ON'
+    'plbplnon': 'WIBID_ON',
+    'plspln00': 'POLSTR',
+    'plspln1m': 'POLSTR_1M',
+    'plspln3m': 'POLSTR_3M',
+    'plspln6m': 'POLSTR_6M',
+    'plsplnci': 'POLSTR_CI'
 }
 
 def download_single_ticker(page, ticker, name, download_dir):
